@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root
+        {
+            --very-Light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+            --white: #FFFFFF;
+            --black: #000000;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body
+        {
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .cards-container
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,240px);
+            gap: 26px;
+            place-content: center;
+        }
+        .product-card
+        {
+            width: 240px;
+        }
+        .product-card img
+        {
+            width: 240px;
+            height: 240px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        .product-info
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 12px;
+        }
+        .product-info figure img
+        {
+            width: 35px;
+            height: 35px;
+        }
+        .product-info figure
+        {
+            margin: 0;
+        }
+        .product-info div p:nth-child(1)
+        {
+            font-weight: bold;
+            font-size: var(--md);
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+        .product-info div p:nth-child(2)
+        {
+            font-size: var(--sm);
+            margin-top: 0;
+            margin-bottom: 0;
+            color: var(--very-Light-pink);
+        }
+        @media (max-width: 640px) 
+        {
+            .cards-container
+            {
+                grid-template-columns: repeat(auto-fill,140px);   
+            }
+            .product-card
+            {
+                width: 140px;
+            }
+            .product-card img
+            {
+                width: 140px;
+                height: 140px;                
+            } 
+        }
+    </style>
+<body>
+    <section class="main-container">
+        <div class="cards-container">
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6913135/pexels-photo-6913135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/75/de/e2/75dee2a748ea4749af7c45177c4288cf.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/60/bb/cf/60bbcfaf2d62352a11ef585897588683.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/3c/01/0d/3c010df11c2a709560c7cf33e9457275.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/77/7b/86/777b86bc0b377994da80d1e4810c4e28.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/68/be/9e/68be9ea0cb0a4d5c86c2d9a8d754d5bb.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/bb/a9/84/bba9841705feecb4f6b53f6288ee6e09.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/b4/d2/b4/b4d2b4a5aa0e4214cca184c7cd602a7f.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/06/0d/30/060d307354a67abeb26b21fa4fa197bb.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/42/79/76/427976ccea710b860e2dbc3ef31a2473.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/14/08/4a/14084a39aa348e6b11473dcf8fa853c5.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/13/b3/85/13b3851bbc7deb440f94c60885cd5758.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/bd/28/b9/bd28b9ce7a7c669d697fbc7c5c4e8358.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/13/79/d1/1379d1415819ac35be6d99ad8e737215.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/564x/b8/80/26/b880262fa5c3b20acfa8f04a461e519a.jpg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$53,500mxn</p>
+                        <p>PC Gamer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+
+            
+
+        </div>
+    </section>
+</body>
+</html>

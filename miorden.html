@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root
+        {
+            --very-Light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+            --white: #FFFFFF;
+            --black: #000000;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body
+        {
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .my-order
+        {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .title
+        {
+            font-size: var(--lg);
+            margin-bottom: 40px ;
+        }
+        .my-order-container
+        {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 300px;
+        }
+        .my-order-content
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="my-order">
+        <div class="my-order-container">
+            <h1 class="title">Mi orden</h1>
+            <div class="my-order-content">
+                <p>
+                    <span>29.12.23</span>
+                    <span>6 articulos</span>
+                </p>
+                <p>$160,500</p>
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/6913135/pexels-photo-6913135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="PC">
+                </figure>
+                <p>PC Gamer</p>
+                <p>53,500</p>
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://i.pinimg.com/564x/75/de/e2/75dee2a748ea4749af7c45177c4288cf.jpg" alt="PC">
+                </figure>
+                <p>PC Gamer</p>
+                <p>53,500</p>
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://i.pinimg.com/564x/60/bb/cf/60bbcfaf2d62352a11ef585897588683.jpg" alt="PC">
+                </figure>
+                <p>PC Gamer</p>
+                <p>53,500</p>
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://i.pinimg.com/564x/3c/01/0d/3c010df11c2a709560c7cf33e9457275.jpg" alt="PC">
+                </figure>
+                <p>PC Gamer</p>
+                <p>53,500</p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
